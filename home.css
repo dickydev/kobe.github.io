@@ -1,0 +1,100 @@
+.jumbotron .mainHeader h1 {
+    color: #FDB927;
+    font-size: 40px;
+    text-align: left;
+}
+
+.jumbotron .mainHeader{
+    background-color: #552583;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.jumbotron .mainHeader img{
+    width: 300px;
+    margin: 30px;
+}
+
+.jumbotron .mainHeader h3, p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.subheading {
+    color: #FDB927;
+    text-align: center;
+}
+
+.subheading:hover {
+    color: red
+}
+
+.package-container {
+    margin: 20px;
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.package-container p {
+    color: black;
+}
+
+.package-container img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.package-container:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+
+}
+
+body {
+    margin: 0;
+}
+.left {
+    margin-left: 75%;
+}
+
+.title {
+    text-align: center !important;
+}
+
+img.Logo:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+}
+
+
+.quickfacts h4 {
+    text-align: justify;
+    margin-left: 600px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*
+selector{
+    property: value
+}
+
+Selector types: 
+1. Class
+2. ID 
+3. Tag HTML

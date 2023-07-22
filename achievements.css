@@ -1,0 +1,61 @@
+.background h1.title {
+    text-align: center;
+    color: #FDB927;
+    background-color: #552583;
+}
+
+.background p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background {
+    background-color: #552583;
+    padding: 50px 100px; 
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table, th, td, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    background-color: #FDB927;
+    color: white;
+}
+
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+td img {
+    border-radius: 8px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.table img {
+    width: 200px;
+}
+p {
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: white
+    b
+}
+
+
+table img:hover {
+cursor: pointer;
+transform: scale(1.2);
+transition: ease-in-out 0.5s;
+}

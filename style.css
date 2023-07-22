@@ -1,0 +1,82 @@
+header {
+    background-color: #552583;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display: flex;
+}
+
+.header-logo {
+    align-self: left;
+    width: 80px;
+    height: 35px;
+   
+}
+
+.header-logo:hover {
+    background-color: #FDB927;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    align-items: right;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 15px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #552583;
+    padding: 10px;
+
+}
+a:hover {
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #FDB927;
+    transition: ease-in-out 0.5s;
+}
+.header-title:hover {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer.indexfooter {
+    margin-top: 50px;
+}
+
+footer.bookingfooter {
+    margin-top: auto;
+}
+
+button {
+    background-color: #552583;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.header-title {
+    cursor: pointer;
+}

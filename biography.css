@@ -1,0 +1,39 @@
+.main-main {
+    display: block;
+    width: 50%;
+    margin: 5% auto 0;
+    text-align: center;
+}
+.background {
+    background-color: #552583;
+    padding: 50px 100px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+h1.title {
+    color: #FDB927;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+main h3.subheading {
+    color: white;
+}
+main p {
+    color: black;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2, h3, p {
+    text-align: center;
+}
+main img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+
+}
